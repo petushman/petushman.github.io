@@ -1,0 +1,16 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+const AAA = () => {
+ 
+  return (
+    <div className="text-justify mx-2 lg:mx-25">
+      <div className=" mt-5 text-2xl">
+        {/*text here*/}
+      </div>
+      <Link className="btn btn-xl my-10 btn-primary" to='/izd'>Назад</Link>
+    </div>
+  );
+};
+
+export default AAA;
